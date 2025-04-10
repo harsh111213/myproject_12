@@ -19,4 +19,7 @@ jobs:
 
       - name: Run flake8 linting
         run: flake8 main.py
+name: Run tests
+  run: |
+    python -m unittest discover
  
